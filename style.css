@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #ff7f50;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo_canva img {
+    max-width: 200px;
+}
+
+#titulo {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#registroForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#registroForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#registroForm input[type="text"],
+#registroForm input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#registroForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7f50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#registroForm button:hover {
+    background-color: #ff6347;
+}
+
+#listaRegistros {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+#listaRegistros li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
